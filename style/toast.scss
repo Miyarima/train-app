@@ -1,0 +1,23 @@
+.toast {
+    position: fixed;
+    bottom: 50;
+    right: 0;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: opacity 500ms, transform 500ms;
+}
+
+.toast.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.toast-body {
+    margin: 0.7rem;
+    padding: 20px 24px;
+    background: linear-gradient(90deg, #fbbe23 0%, darken(#fbbe23, 10%) 100%);
+    font-size: 0.9em;
+    color: $font-color;
+    font-family: $font-header;
+    border-radius: 10px 10px 0;
+}

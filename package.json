@@ -1,0 +1,17 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "style": "sass base.scss style.min.css  --no-source-map --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.3",
+    "leaflet.heat": "^0.2.0",
+    "sass": "^1.62.1"
+  },
+  "keywords": [],
+  "description": ""
+}

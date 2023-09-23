@@ -1,0 +1,27 @@
+.delay {
+    color: $font-color-orange;
+    padding: 1em;
+    background-color: $background-color-light;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+    .main-st {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .sub-st {
+        font-size: 1rem;
+    }
+
+    .status {
+        display: flex;
+        color: $font-color;
+        justify-content: space-between;
+        margin-top: 0.5em;
+    }
+
+    .status-text {
+        font-size: 0.8rem;
+    }
+}

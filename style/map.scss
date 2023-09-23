@@ -1,0 +1,24 @@
+.map {
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.no-margin {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.train-margin-bottom {
+    margin: 0.4em;
+}
+
+.map-text {
+    color: $font-color;
+    font-size: 0.7rem;
+    text-align: center;
+}

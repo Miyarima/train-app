@@ -1,0 +1,47 @@
+.main {
+    padding-bottom: 3em;
+    background-color: $background-color-medium;
+    min-height: 90vh;
+}
+
+.button {
+    color: $font-color;
+    background-color: $font-color;
+    background-image: linear-gradient(lighten($background-color-light, 20%), lighten($background-color-light, 10%));
+    border: 1px solid $background-color-medium;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $font-header;
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.button:hover {
+    background-color: $font-color-orange;
+    color: $font-color-dark;
+    background-image: none;
+}
+
+.button:active {
+    background-image: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.green-button {
+    color: $font-color;
+    background-image: linear-gradient(lighten(green, 20%), lighten(darkgreen, 10%));
+}
+
+.blue-button {
+    color: $font-color;
+    background-image: linear-gradient(lighten(darkblue, 40%), lighten(darkblue, 20%));
+}
+
+.button-margin {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
